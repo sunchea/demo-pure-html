@@ -3,7 +3,18 @@ body { font-family: 'Lato', sans-serif; }
 body.dark-theme {
     background-color: #18191a;
     color: #fff;
-    background-image:url('/assets/img/jpg/sven-scheuermeier.jpg');
+    background-image:url('/assets/img/webp/sven-scheuermeier.webp');
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+}
+
+body.light-theme {
+    background-image:url('/assets/img/webp/drew-beamer-5D.webp');
     background-repeat:no-repeat;
     -webkit-background-size:cover;
     -moz-background-size:cover;
@@ -25,7 +36,7 @@ body.dark-theme .g-bg-lg {
     background-color: #242526ab;
 }
 body .g-bg-lg {
-    background-color: #f0f2f5;;
+    background-color: #f0f2f5ab;;
 }
 
 .g-br-8 {

@@ -21,9 +21,12 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="theme-color" content="#0d6efd">
 	<title>Жамков Александр | Web-разработчик — Москва, Краснодар</title>
 	<meta name="description" content="Персональная страница, портфолио — Жамков Александр, Web-разработчик, Москва, Краснодар | Pure HTML">
     <link rel="preload" href="/assets/fonts/lato/latoregular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="/assets/fonts/lato/latomedium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="/assets/fonts/lato/latoitalic.woff2" as="font" type="font/woff2" crossorigin="anonymous">
     <link rel="stylesheet preload prefetch" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" as="style" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="preload" href="/assets/fonts/lato/lato.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="preload" href="/assets/css/main.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -98,7 +101,7 @@
             	<h3>Навыки</h3>
             	<ul class="g-list-style-type-none g-pl-0">
             		<li>Bootstrap, верстка, Figma, Photoshop&nbsp;&nbsp;<small><i class="bi bi-info-square-fill" data-bs-toggle="tooltip" data-bs-placement="right" title="Используется UI фреймворк Bootstrap v5.0.0-beta1"></i>  — <a href="#?" class="g-link" title="Скоро...">макет на Figma</a></small></li>
-            		<li>Git, Gulp, Composer&nbsp;&nbsp;<small><i class="bi bi-info-square-fill" data-bs-toggle="tooltip" data-bs-placement="right" title="Репозиторий проекта на GitHub"></i> — <a href="https://github.com/sunchea/demo-pure-html" class="g-link" title="Скоро...">стр. на GitHub</a></small></li>
+            		<li>Git, Gulp, Composer&nbsp;&nbsp;<small><i class="bi bi-info-square-fill" data-bs-toggle="tooltip" data-bs-placement="right" title="Репозиторий проекта на GitHub"></i> — <a href="https://github.com/sunchea/demo-pure-html" class="g-link" title="Открыть в новом окне" rel="noreferrer" target="_blank">репо на GitHub</a></small></li>
                 	<li>SEO, техническое SEO, реклама</li>
                     <li>macOS, Linux, BSD&nbsp;&nbsp;<small><i class="bi bi-info-square-fill" data-bs-toggle="tooltip" data-bs-placement="right" title="Работа с хостингом ведется по SSH"></i>&nbsp;</small></li>
             	</ul>
@@ -127,7 +130,7 @@
 	        <div class="col">
             	<ul>
                     <li><small>PageSpeed Insights — <a href="https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2F<?=$_SERVER["SERVER_NAME"];?>%2F" class="g-link" title="Открыть в новом окне" rel="noreferrer" target="_blank">результат</a></small></li>
-                    <li><small>GTmetrix performance — <a href="https://gtmetrix.com/reports/ni-ki-ta.online/ZzCO0lzf/" class="g-link" title="Открыть в новом окне" rel="noreferrer" target="_blank">результат</a></small></li>
+                    <li><small>GTmetrix performance — <a href="https://gtmetrix.com/reports/ni-ki-ta.online/65uGMhBp/" class="g-link" title="Открыть в новом окне" rel="noreferrer" target="_blank">результат</a></small></li>
             		<li><small>W3C Markup Validation Service — <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2F<?=$_SERVER["SERVER_NAME"];?>%2F" class="g-link" title="Открыть в новом окне" rel="noreferrer" target="_blank">результат</a></small></li>
             		<li><small>W3C CSS Validation Service — <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2F<?=$_SERVER["SERVER_NAME"];?>%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=ru" class="g-link" title="Открыть в новом окне" rel="noreferrer" target="_blank">результат</a></small></li>
             		<li><small>SEO аудит, сервис pr-cy.ru — <a href="https://a.pr-cy.ru/<?=$_SERVER["SERVER_NAME"];?>" class="g-link" title="Открыть в новом окне" rel="noreferrer" target="_blank">результат</a></small></li>

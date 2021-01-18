@@ -10,6 +10,7 @@ const btnLight = document.querySelector(".btn-toggle-light");
 btnDark.addEventListener("click", function() {
     event.preventDefault();
     document.body.classList.add("dark-theme");
+    document.body.classList.remove("light-theme");
     btnDark.classList.add("active");
     btnLight.classList.remove("active");
     document.cookie = "theme=" + "dark-theme";
@@ -17,6 +18,7 @@ btnDark.addEventListener("click", function() {
 btnLight.addEventListener("click", function() {
     event.preventDefault();
     document.body.classList.remove("dark-theme");
+    document.body.classList.add("light-theme");
     btnDark.classList.remove("active");
     btnLight.classList.add("active");
     document.cookie = "theme=" + "light-theme";

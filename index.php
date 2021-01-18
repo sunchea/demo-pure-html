@@ -98,7 +98,7 @@
             	<h3>Навыки</h3>
             	<ul class="g-list-style-type-none g-pl-0">
             		<li>Bootstrap, верстка, Figma, Photoshop&nbsp;&nbsp;<small><i class="bi bi-info-square-fill" data-bs-toggle="tooltip" data-bs-placement="right" title="Используется UI фреймворк Bootstrap v5.0.0-beta1"></i>  — <a href="#?" class="g-link" title="Скоро...">макет на Figma</a></small></li>
-            		<li>Git, Gulp, Composer&nbsp;&nbsp;<small><i class="bi bi-info-square-fill" data-bs-toggle="tooltip" data-bs-placement="right" title="Репозиторий проекта на GitHub"></i> — <a href="#?" class="g-link" title="Скоро...">стр. на GitHub</a></small></li>
+            		<li>Git, Gulp, Composer&nbsp;&nbsp;<small><i class="bi bi-info-square-fill" data-bs-toggle="tooltip" data-bs-placement="right" title="Репозиторий проекта на GitHub"></i> — <a href="https://github.com/sunchea/demo-pure-html" class="g-link" title="Скоро...">стр. на GitHub</a></small></li>
                 	<li>SEO, техническое SEO, реклама</li>
                     <li>macOS, Linux, BSD&nbsp;&nbsp;<small><i class="bi bi-info-square-fill" data-bs-toggle="tooltip" data-bs-placement="right" title="Работа с хостингом ведется по SSH"></i>&nbsp;</small></li>
             	</ul>

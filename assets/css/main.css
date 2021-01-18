@@ -1,0 +1,69 @@
+body { font-family: 'Lato', sans-serif; }
+
+body.dark-theme {
+    background-color: #18191a;
+    color: #fff;
+    background-image:url('/assets/img/jpg/sven-scheuermeier.jpg');
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+}
+
+body.dark-theme a.g-link {
+    color: #b0b3b8;
+}
+
+body.dark-theme a.g-link:hover {
+    color: #fff;
+}
+
+body.dark-theme .g-bg-lg {
+    background-color: #242526ab;
+}
+body .g-bg-lg {
+    background-color: #f0f2f5;;
+}
+
+.g-br-8 {
+    border-radius: 8px;
+}
+
+.g-pl-0 {
+    padding-left: 0px;
+}
+
+.g-font-size-1_3 { font-size: 1.3rem; }
+
+.g-list-style-type-none {
+    list-style-type: none;
+}
+
+@media (min-width: 768px) {
+    .g-ml-10--md {
+        margin-left: 0.71429rem;
+    }
+    .g-mx-10--md {
+        margin-left: 0.71429rem;
+        margin-right: 0.71429rem;
+    }
+    .g-mr-10--md {
+        margin-right: 0.71429rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .g-ml-10--lg {
+        margin-left: 0.71429rem;
+    }
+    .g-mx-10--lg {
+        margin-left: 0.71429rem;
+        margin-right: 0.71429rem;
+    }
+    .g-mr-10--lg {
+        margin-right: 0.71429rem;
+    }
+}

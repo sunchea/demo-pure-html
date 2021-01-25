@@ -43,9 +43,20 @@
     <style>
 
     </style>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MRDX92P');</script>
+    <!-- End Google Tag Manager -->
 </head>
 
 <body class="<?=$themeClass;?>">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MRDX92P"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 	<div class="container mt-5">
 	    <div class="row">
             <div class="col-3 col-md-2 col-lg-1">
@@ -102,8 +113,8 @@
             	<ul class="g-list-style-type-none g-pl-0">
             		<li>Bootstrap, верстка, Figma, Photoshop&nbsp;&nbsp;<small><i class="bi bi-info-square-fill" data-bs-toggle="tooltip" data-bs-placement="right" title="Используется UI фреймворк Bootstrap v5.0.0-beta1"></i>  — <a href="#?" class="g-link" title="Скоро...">макет на Figma</a></small></li>
             		<li>Git, Gulp, Composer&nbsp;&nbsp;<small><i class="bi bi-info-square-fill" data-bs-toggle="tooltip" data-bs-placement="right" title="Репозиторий проекта на GitHub"></i> — <a href="https://github.com/sunchea/demo-pure-html" class="g-link" title="Открыть в новом окне" rel="noreferrer" target="_blank">репо на GitHub</a></small></li>
-                	<li>SEO, техническое SEO, реклама</li>
                     <li>macOS, Linux, BSD&nbsp;&nbsp;<small><i class="bi bi-info-square-fill" data-bs-toggle="tooltip" data-bs-placement="right" title="Работа с хостингом ведется по SSH"></i>&nbsp;</small></li>
+                	<li>SEO, техническое SEO, реклама</li>
             	</ul>
             </div>
         </div>

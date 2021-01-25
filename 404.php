@@ -43,15 +43,26 @@
     <style>
 
     </style>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MRDX92P');</script>
+    <!-- End Google Tag Manager -->
 </head>
 
 <body class="<?=$themeClass;?>">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MRDX92P"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <div class="container pt-5">
 	    <div class="d-flex flex-column pt-5 text-center">
             <h1>Error 404</h1>
             <div class="_flex-fill mt-5 pt-4 pe-4 pb-4 ps-4 g-bg-lg g-br-8">
                 <h2>Page "<?=$_SERVER['REQUEST_URI'];?>" does not exist</h2>
-                <h3><a href="https://<?=$themeDomain;?>">Go to main page</a></h3>
+                <h3><a href="https://<?=$themeDomain;?>" class="g-link">Go to main page</a></h3>
             </div>
         </div>
     </div>
